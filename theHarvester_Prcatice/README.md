@@ -54,7 +54,7 @@ theHarvester -d hackthissite.org -b google
 Instead we can use Yahoo which doesn't require API Key
 
 <img src="https://github.com/Raghda35/OSINT-Practice/blob/b852c6e5ef22ed1d7879b8a94d29010c4967674f/Basic_command.png">
-
+theHarvester_Prcatice/images
 
 ---
 
