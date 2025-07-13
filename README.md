@@ -1,87 +1,72 @@
-# theHarvester - OSINT Tool تطبيقاتي العملية لأداة
+# Reconnaissance
 
-This section provides a complete walkthrough on how to use theHarvester — a powerful OSINT (Open Source Intelligence) tool used for gathering publicly available information about a target.
+ 
+ systems, networks, and potential targets to identify vulnerabilities and assess security risks. This process helps cybersecurity professionals understand the environment before conducting penetration tests or implementing defense strategies.
 
----
+##Types of Information Gathering
+### 1. Passive Information Gathering
 
-## 🔍 What is theHarvester?
+Involves collecting data without directly interacting with the target.
 
-theHarvester is an open-source intelligence tool designed to help gather emails, subdomains, IPs, and usernames from different public sources like search engines and websites such as:
+The target does not know it's being analyzed.
 
-- Google
-- Bing
-- Yahoo
-- Shodan
-- LinkedIn
-- Baidu
-- And more...
+Examples: Google search, WHOIS lookup, Shodan, DNS info, social media profiles.
 
----
+### 2. Active Information Gathering
 
-1. Installing theHarvester (if not already installed) In Kali Linux, the tool is usually pre-installed. But if it’s not, run:
-```
-sudo apt update
-sudo apt install theharvester
-```
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/6d999f2ab67f2d30768cbb11886fea913c977d9d/theHarvester_installation.png">
+Involves direct interaction with the target system or network.
 
----
+This may alert the target or trigger security defenses.
 
-2. Running the Tool: This will show the help menu with all available options.
+Examples: Port scanning with Nmap, ping sweeps, banner grabbing.
 
-```
-theHarvester
-```
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/6d999f2ab67f2d30768cbb11886fea913c977d9d/Running.png">
+## Stages of Information Gathering
+1. Target Identification
 
----
+Define the scope: domain name, IP address, organization, or individual.
 
-3. Basic Command Syntax
-```
-theHarvester -d [domain] -b [data source]
-```
--d: The target domain.
+2. Footprinting (Public Information Collection)
 
--b: The data source (e.g., google, bing, yahoo, baidu, shodan, linkedin).
+Collect general data from public sources like websites, forums, and social networks.
 
-Example
+3. DNS and IP Analysis
 
-```
-theHarvester -d hackthissite.org -b google
-```
-(Requires API Key)
+Discover subdomains, IP addresses, name servers, and mail servers.
 
-Instead we can use Yahoo which doesn't require API Key
+4.. ort and Service Scanning
 
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/b852c6e5ef22ed1d7879b8a94d29010c4967674f/Basic_command.png">
+Use tools to find open ports and active services on the target system.
 
+5. OS and Application Fingerprinting
 
----
+Identify the target's operating system and software versions.
 
-4. Detailed Command
-```
-theHarvester -d example.com -b yahoo -l 100 -f result-example
-```
-| Option | Description                                                      |
-| ------ | ---------------------------------------------------------------- |
-| `-d`   | Target domain name.                                              |
-| `-b`   | Data source to use (e.g., google, bing, shodan, linkedin, etc.). |
-| `-l`   | Limit the number of results to fetch.                            |
-| `-f`   | Save the output to an HTML or XML file.                          |
-| `-v`   | Verbose output (detailed display).                               |
-| `-h`   | Show the help message.                                           |
+6. Vulnerability Identification
 
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/165483b49c9304c07532a1e74a8a9376c2215201/Detailed_command.png">
+Detect potential security flaws or misconfigurations.
 
----
+## Common Tools for Information Gathering
+1. theHarvester – Collects emails, subdomains, and names from public sources.
 
-5. View saved information in result-example.XML or JSON 
+2. Recon-ng – A powerful reconnaissance framework.
+
+3. Maltego – Visual link analysis tool for mapping relationships.
+
+4. Nmap – Network scanner to detect open ports and services.
 
 
 
 
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/832c1ea7cf277efdd1cac41147eab4170ed609f2/View_result.png">
 
+
+
+
+
+
+
+
+
+ 
 
 ---
 
