@@ -1,9 +1,11 @@
 # Reconnaissance
 
- 
- systems, networks, and potential targets to identify vulnerabilities and assess security risks. This process helps cybersecurity professionals understand the environment before conducting penetration tests or implementing defense strategies.
+Systems, networks, and potential targets to identify vulnerabilities and assess security risks. This process helps cybersecurity professionals understand the environment before conducting penetration tests or implementing defense strategies.
+
+---
 
 ##Types of Information Gathering
+
 ### 1. Passive Information Gathering
 
 Involves collecting data without directly interacting with the target.
@@ -20,7 +22,10 @@ This may alert the target or trigger security defenses.
 
 Examples: Port scanning with Nmap, ping sweeps, banner grabbing.
 
+---
+
 ## Stages of Information Gathering
+
 1. Target Identification
 
 Define the scope: domain name, IP address, organization, or individual.
@@ -45,7 +50,10 @@ Identify the target's operating system and software versions.
 
 Detect potential security flaws or misconfigurations.
 
+---
+
 ## Common Tools for Information Gathering
+
 1. theHarvester – Collects emails, subdomains, and names from public sources.
 
 2. Recon-ng – A powerful reconnaissance framework.
@@ -56,32 +64,6 @@ Detect potential security flaws or misconfigurations.
 
 
 
-
-
-
-
-
-
-
-
-
-
- 
-
----
-
-6. Result Analysis
-After scanning, you will typically get:
-
-Email addresses
-
-Subdomains
-
-Hostnames
-
-Possibly IPs
-
-Shodan/LinkedIn data (if API is configured)
 
 
 
