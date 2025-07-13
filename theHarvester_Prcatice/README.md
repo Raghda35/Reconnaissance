@@ -77,12 +77,7 @@ theHarvester -d example.com -b yahoo -l 100 -f result-example
 
 5. View saved information in result-example.XML or JSON 
 
-
-
-
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/832c1ea7cf277efdd1cac41147eab4170ed609f2/View_result.png">
-
-
+![Alt Text](images/View_result.png)
 ---
 
 6. Result Analysis
