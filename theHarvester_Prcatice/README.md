@@ -23,7 +23,6 @@ theHarvester is an open-source intelligence tool designed to help gather emails,
 sudo apt update
 sudo apt install theharvester
 ```
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/6d999f2ab67f2d30768cbb11886fea913c977d9d/theHarvester_installation.png">
 
 ![Alt Text](images/theHarvester_installation.png)
 
@@ -34,8 +33,7 @@ sudo apt install theharvester
 ```
 theHarvester
 ```
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/6d999f2ab67f2d30768cbb11886fea913c977d9d/Running.png">
-
+![Alt Text](images/Running.png)
 ---
 
 3. Basic Command Syntax
@@ -55,8 +53,8 @@ theHarvester -d hackthissite.org -b google
 
 Instead we can use Yahoo which doesn't require API Key
 
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/b852c6e5ef22ed1d7879b8a94d29010c4967674f/Basic_command.png">
-theHarvester_Prcatice/images
+
+![Alt Text](images/Basic_command.png)
 
 ---
 
@@ -73,7 +71,7 @@ theHarvester -d example.com -b yahoo -l 100 -f result-example
 | `-v`   | Verbose output (detailed display).                               |
 | `-h`   | Show the help message.                                           |
 
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/165483b49c9304c07532a1e74a8a9376c2215201/Detailed_command.png">
+![Alt Text](images/Detailed_command.png)
 
 ---
 
