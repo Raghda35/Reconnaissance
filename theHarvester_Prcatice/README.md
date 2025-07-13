@@ -24,7 +24,7 @@ sudo apt update
 sudo apt install theharvester
 ```
 <img src="https://github.com/Raghda35/OSINT-Practice/blob/6d999f2ab67f2d30768cbb11886fea913c977d9d/theHarvester_installation.png">
-![Alt Text](images/maltego_install.png)
+![Alt Text](images/theHarvester_installation.png)
 ---
 
 2. Running the Tool: This will show the help menu with all available options.
