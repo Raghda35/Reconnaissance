@@ -4,7 +4,7 @@ Systems, networks, and potential targets to identify vulnerabilities and assess 
 
 ---
 
-##Types of Information Gathering
+## Types of Information Gathering
 
 ### 1. Passive Information Gathering
 
@@ -26,29 +26,17 @@ Examples: Port scanning with Nmap, ping sweeps, banner grabbing.
 
 ## Stages of Information Gathering
 
-1. Target Identification
+1. Target Identification: Define the scope: domain name, IP address, organization, or individual.
 
-Define the scope: domain name, IP address, organization, or individual.
+2. Footprinting (Public Information Collection): Collect general data from public sources like websites, forums, and social networks.
 
-2. Footprinting (Public Information Collection)
+3. DNS and IP Analysis: Discover subdomains, IP addresses, name servers, and mail servers.
 
-Collect general data from public sources like websites, forums, and social networks.
+4. Port and Service Scanning: Use tools to find open ports and active services on the target system.
 
-3. DNS and IP Analysis
+5. OS and Application Fingerprinting: Identify the target's operating system and software versions.
 
-Discover subdomains, IP addresses, name servers, and mail servers.
-
-4.. ort and Service Scanning
-
-Use tools to find open ports and active services on the target system.
-
-5. OS and Application Fingerprinting
-
-Identify the target's operating system and software versions.
-
-6. Vulnerability Identification
-
-Detect potential security flaws or misconfigurations.
+6. Vulnerability Identification: Detect potential security flaws or misconfigurations.
 
 ---
 
