@@ -29,7 +29,7 @@ maltego
 
 Alternatively, you can find it in the Applications > reconnaissance menu in Kali's GUI.
 
-<img src="https://github.com/Raghda35/maltego-Practice/blob/186bddefb3e1b75520c05711110a69825e86d09a/images/GUI.png" width=50%/>
+<img src="https://github.com/Raghda35/Reconnaissance/blob/db2f3441b6b447b2fd7e114b109586864697afdd/maltego-Practice/images/GUI.png" width=50%/>
 
 
 
